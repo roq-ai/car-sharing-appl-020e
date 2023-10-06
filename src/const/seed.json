@@ -1,0 +1,2772 @@
+[
+  {
+    "car": [
+      {
+        "id": "57d3c8b5-e948-4234-b145-287b9e10168b",
+        "model": "Sedan",
+        "manufacturer": "Toyota",
+        "year_of_manufacture": 7018,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "availability_status": false,
+        "created_at": "2023-10-06T01:42:15.035Z",
+        "updated_at": "2023-10-05T20:11:18.345Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "203b1f16-8091-4eba-9f3e-ef65277fa1c3",
+        "model": "SUV",
+        "manufacturer": "Honda",
+        "year_of_manufacture": 36947,
+        "color": "Blue",
+        "registration_number": "XYZ456",
+        "availability_status": true,
+        "created_at": "2023-10-06T01:00:06.728Z",
+        "updated_at": "2023-10-06T11:19:42.335Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1a29d463-e802-4670-82fc-38fa33d90378",
+        "model": "Hatchback",
+        "manufacturer": "Ford",
+        "year_of_manufacture": 94524,
+        "color": "Black",
+        "registration_number": "123ABC",
+        "availability_status": false,
+        "created_at": "2023-10-06T05:51:56.076Z",
+        "updated_at": "2023-10-05T23:49:18.356Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7693b573-2616-4a8b-a757-705baae99125",
+        "model": "Convertible",
+        "manufacturer": "BMW",
+        "year_of_manufacture": 16798,
+        "color": "White",
+        "registration_number": "456XYZ",
+        "availability_status": true,
+        "created_at": "2023-10-06T04:22:58.267Z",
+        "updated_at": "2023-10-06T15:14:39.787Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "933ba427-beb7-45d6-a6c4-9c1ae2b1db24",
+        "model": "Electric",
+        "manufacturer": "Tesla",
+        "year_of_manufacture": 74226,
+        "color": "Silver",
+        "registration_number": "789DEF",
+        "availability_status": true,
+        "created_at": "2023-10-06T17:48:12.308Z",
+        "updated_at": "2023-10-06T05:31:18.032Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "108c748d-b43d-49a3-95d7-8f886b01f69e",
+        "rating": 2584,
+        "comment": "Great product!",
+        "review_date": "2023-10-06T10:10:37.257Z",
+        "created_at": "2023-10-06T16:34:23.470Z",
+        "updated_at": "2023-10-05T23:53:26.710Z",
+        "car_id": "203b1f16-8091-4eba-9f3e-ef65277fa1c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0e24bfb-4295-417e-bb58-71ceb9eba13d",
+        "rating": 277,
+        "comment": "Excellent service!",
+        "review_date": "2023-10-06T18:22:25.840Z",
+        "created_at": "2023-10-06T06:20:10.442Z",
+        "updated_at": "2023-10-06T15:49:43.027Z",
+        "car_id": "203b1f16-8091-4eba-9f3e-ef65277fa1c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8244224e-4f31-4f6a-8b7d-9057c761d9a8",
+        "rating": 32212,
+        "comment": "Highly recommended!",
+        "review_date": "2023-10-06T09:05:50.947Z",
+        "created_at": "2023-10-06T09:02:00.407Z",
+        "updated_at": "2023-10-06T02:27:45.404Z",
+        "car_id": "203b1f16-8091-4eba-9f3e-ef65277fa1c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b989c331-66e5-4423-a67b-d19ec5abd339",
+        "rating": 89133,
+        "comment": "Impressive quality!",
+        "review_date": "2023-10-06T11:25:11.360Z",
+        "created_at": "2023-10-06T16:56:24.935Z",
+        "updated_at": "2023-10-06T13:59:00.231Z",
+        "car_id": "57d3c8b5-e948-4234-b145-287b9e10168b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1bed995-bfdc-4be7-8e1d-e813e312dab3",
+        "rating": 78362,
+        "comment": "Outstanding experience!",
+        "review_date": "2023-10-06T18:28:32.462Z",
+        "created_at": "2023-10-05T22:55:12.286Z",
+        "updated_at": "2023-10-06T10:12:14.213Z",
+        "car_id": "1a29d463-e802-4670-82fc-38fa33d90378",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "maintenance": [
+      {
+        "id": "167b1159-b47a-4a4f-aab5-f754cae2f846",
+        "maintenance_date": "2023-10-06T01:58:50.838Z",
+        "description": "Routine checkup",
+        "cost": 96042,
+        "maintenance_status": "Pending",
+        "created_at": "2023-10-06T05:06:26.454Z",
+        "updated_at": "2023-10-06T04:25:41.278Z",
+        "car_id": "203b1f16-8091-4eba-9f3e-ef65277fa1c3"
+      },
+      {
+        "id": "32402856-f73d-40b5-af8c-19cd7855935f",
+        "maintenance_date": "2023-10-06T03:32:06.241Z",
+        "description": "Engine repair",
+        "cost": 8894,
+        "maintenance_status": "In progress",
+        "created_at": "2023-10-06T10:26:51.087Z",
+        "updated_at": "2023-10-06T11:28:44.699Z",
+        "car_id": "203b1f16-8091-4eba-9f3e-ef65277fa1c3"
+      },
+      {
+        "id": "9f45f31e-c336-44bd-b2ed-f3d32a66fc22",
+        "maintenance_date": "2023-10-06T04:35:40.830Z",
+        "description": "Tire replacement",
+        "cost": 2206,
+        "maintenance_status": "Completed",
+        "created_at": "2023-10-06T05:47:56.030Z",
+        "updated_at": "2023-10-06T10:08:25.308Z",
+        "car_id": "7693b573-2616-4a8b-a757-705baae99125"
+      },
+      {
+        "id": "7d69cdcb-b0b7-4b5a-9bc1-6be17e30294f",
+        "maintenance_date": "2023-10-06T10:20:17.822Z",
+        "description": "Battery replacement",
+        "cost": 87241,
+        "maintenance_status": "Cancelled",
+        "created_at": "2023-10-06T12:19:05.397Z",
+        "updated_at": "2023-10-06T11:51:26.432Z",
+        "car_id": "1a29d463-e802-4670-82fc-38fa33d90378"
+      },
+      {
+        "id": "dcee0912-5985-443e-b337-19d4bdcdc688",
+        "maintenance_date": "2023-10-06T10:16:59.730Z",
+        "description": "Brake service",
+        "cost": 5559,
+        "maintenance_status": "Delayed",
+        "created_at": "2023-10-06T05:23:44.300Z",
+        "updated_at": "2023-10-06T17:39:46.416Z",
+        "car_id": "203b1f16-8091-4eba-9f3e-ef65277fa1c3"
+      }
+    ],
+    "booking": [
+      {
+        "id": "f4b8071c-89dc-4d63-b571-9567b5a28aac",
+        "start_time": "2023-10-05T22:29:03.377Z",
+        "end_time": "2023-10-06T11:43:51.211Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City center",
+        "booking_status": "Confirmed",
+        "created_at": "2023-10-05T22:10:03.865Z",
+        "updated_at": "2023-10-06T02:11:20.542Z",
+        "car_id": "203b1f16-8091-4eba-9f3e-ef65277fa1c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b182a24-1213-4dcd-88fa-876edfcfff2c",
+        "start_time": "2023-10-05T18:54:55.260Z",
+        "end_time": "2023-10-06T02:14:46.327Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Shopping mall",
+        "booking_status": "Pending",
+        "created_at": "2023-10-06T00:57:05.990Z",
+        "updated_at": "2023-10-06T00:49:37.548Z",
+        "car_id": "933ba427-beb7-45d6-a6c4-9c1ae2b1db24",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a41f8b5-9253-4b4d-b313-51a9f28c3c0a",
+        "start_time": "2023-10-06T17:17:25.422Z",
+        "end_time": "2023-10-06T18:33:39.330Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "booking_status": "Cancelled",
+        "created_at": "2023-10-05T21:33:02.812Z",
+        "updated_at": "2023-10-06T09:26:14.389Z",
+        "car_id": "1a29d463-e802-4670-82fc-38fa33d90378",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "152f01d6-1ba2-4949-afc8-883494ecb03d",
+        "start_time": "2023-10-06T07:33:22.688Z",
+        "end_time": "2023-10-05T23:41:01.386Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "booking_status": "Completed",
+        "created_at": "2023-10-06T02:02:25.370Z",
+        "updated_at": "2023-10-06T03:06:20.635Z",
+        "car_id": "7693b573-2616-4a8b-a757-705baae99125",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92a56f26-4b68-41bb-ae89-a5783fb6d412",
+        "start_time": "2023-10-06T03:39:31.350Z",
+        "end_time": "2023-10-05T19:44:55.542Z",
+        "pickup_location": "Residential area",
+        "dropoff_location": "Beach",
+        "booking_status": "In progress",
+        "created_at": "2023-10-06T11:08:28.820Z",
+        "updated_at": "2023-10-05T18:48:30.144Z",
+        "car_id": "7693b573-2616-4a8b-a757-705baae99125",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1acfcd1e-a6b2-4301-8b12-c947355eed01",
+        "email": "Margarett.Fay@roq.tech",
+        "firstName": "Vern",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69740951",
+        "tenantId": null
+      },
+      {
+        "reference": "ffc19a47-b2e1-489e-9228-ae9e29a824eb",
+        "email": "Trevor_Stokes0@roq.tech",
+        "firstName": "Lonzo",
+        "lastName": "Bins-Simonis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/68.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7b80478d-5693-48a7-9257-f7ceeae0f59d",
+        "email": "Tamara_Gibson25@roq.tech",
+        "firstName": "Toy",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75482365",
+        "tenantId": null
+      },
+      {
+        "reference": "59ca321e-8ffd-4e01-8f7b-3707048ae856",
+        "email": "Bessie49@roq.tech",
+        "firstName": "Larry",
+        "lastName": "Yundt-Collins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85852168",
+        "tenantId": null
+      },
+      {
+        "reference": "e7b62162-0d05-4e2f-9307-5e574aa87987",
+        "email": "Emil_Smith26@roq.tech",
+        "firstName": "Michelle",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42275034",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "3e466422-326c-4a1c-9b00-d11a60fe8197",
+        "model": "Sedan",
+        "manufacturer": "Toyota",
+        "year_of_manufacture": 82765,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "availability_status": false,
+        "created_at": "2023-10-06T02:20:28.673Z",
+        "updated_at": "2023-10-05T21:33:00.489Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e28a6db8-c239-4c30-949d-237229f2c30f",
+        "model": "SUV",
+        "manufacturer": "Honda",
+        "year_of_manufacture": 49140,
+        "color": "Blue",
+        "registration_number": "XYZ789",
+        "availability_status": true,
+        "created_at": "2023-10-06T11:14:07.630Z",
+        "updated_at": "2023-10-05T22:52:13.110Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3640f7b2-af6c-4512-ab55-ed3a73c598d6",
+        "model": "Hatchback",
+        "manufacturer": "Ford",
+        "year_of_manufacture": 42420,
+        "color": "Green",
+        "registration_number": "123456",
+        "availability_status": true,
+        "created_at": "2023-10-06T01:42:56.364Z",
+        "updated_at": "2023-10-06T03:17:52.509Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "828423f7-aeb0-4691-8d87-f2af86d4dca8",
+        "model": "Convertible",
+        "manufacturer": "BMW",
+        "year_of_manufacture": 8919,
+        "color": "Black",
+        "registration_number": "DEF456",
+        "availability_status": false,
+        "created_at": "2023-10-06T01:01:07.418Z",
+        "updated_at": "2023-10-06T00:10:41.589Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9e78a3b9-912a-44c4-9096-e1d77b1abb77",
+        "model": "Sports Car",
+        "manufacturer": "Mercedes-Benz",
+        "year_of_manufacture": 31128,
+        "color": "White",
+        "registration_number": "GHI789",
+        "availability_status": true,
+        "created_at": "2023-10-06T14:21:32.317Z",
+        "updated_at": "2023-10-06T14:49:33.171Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "0def5bfe-ab1e-46c9-8170-e7dad83a055c",
+        "rating": 44091,
+        "comment": "Great product!",
+        "review_date": "2023-10-05T22:39:44.424Z",
+        "created_at": "2023-10-06T18:33:19.964Z",
+        "updated_at": "2023-10-05T20:41:37.017Z",
+        "car_id": "e28a6db8-c239-4c30-949d-237229f2c30f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d68c552f-9cb3-4fd3-8690-9da10d8083aa",
+        "rating": 11283,
+        "comment": "Excellent service!",
+        "review_date": "2023-10-06T02:54:42.860Z",
+        "created_at": "2023-10-06T01:53:32.896Z",
+        "updated_at": "2023-10-05T22:29:09.622Z",
+        "car_id": "828423f7-aeb0-4691-8d87-f2af86d4dca8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26f57fb0-3467-4228-a444-ddd076310d90",
+        "rating": 71322,
+        "comment": "Highly recommended!",
+        "review_date": "2023-10-06T03:37:21.428Z",
+        "created_at": "2023-10-06T04:18:57.226Z",
+        "updated_at": "2023-10-06T13:27:51.351Z",
+        "car_id": "9e78a3b9-912a-44c4-9096-e1d77b1abb77",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "daf1feae-df2b-469a-a074-4093cb36f63e",
+        "rating": 41306,
+        "comment": "Very satisfied!",
+        "review_date": "2023-10-06T10:37:03.318Z",
+        "created_at": "2023-10-05T20:52:42.906Z",
+        "updated_at": "2023-10-06T13:23:30.201Z",
+        "car_id": "3640f7b2-af6c-4512-ab55-ed3a73c598d6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a43a6fbe-daf7-47f6-b965-e6056365ab54",
+        "rating": 95379,
+        "comment": "Impressive quality!",
+        "review_date": "2023-10-06T11:15:23.997Z",
+        "created_at": "2023-10-06T02:42:37.439Z",
+        "updated_at": "2023-10-06T17:54:04.044Z",
+        "car_id": "9e78a3b9-912a-44c4-9096-e1d77b1abb77",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "maintenance": [
+      {
+        "id": "f7b5f25b-f78a-4034-9d7a-29472e1c6796",
+        "maintenance_date": "2023-10-06T01:42:12.461Z",
+        "description": "Routine check-up",
+        "cost": 48474,
+        "maintenance_status": "Pending",
+        "created_at": "2023-10-06T04:05:01.723Z",
+        "updated_at": "2023-10-06T00:55:49.379Z",
+        "car_id": "828423f7-aeb0-4691-8d87-f2af86d4dca8"
+      },
+      {
+        "id": "0523afbd-ad48-403f-b14e-cb04e5d38da3",
+        "maintenance_date": "2023-10-06T14:35:19.638Z",
+        "description": "Oil change",
+        "cost": 17828,
+        "maintenance_status": "In Progress",
+        "created_at": "2023-10-05T18:52:32.723Z",
+        "updated_at": "2023-10-05T20:57:53.555Z",
+        "car_id": "9e78a3b9-912a-44c4-9096-e1d77b1abb77"
+      },
+      {
+        "id": "5c7d598c-ac04-4196-99f1-f28a599e3c8d",
+        "maintenance_date": "2023-10-05T23:52:00.306Z",
+        "description": "Tire rotation",
+        "cost": 1086,
+        "maintenance_status": "Completed",
+        "created_at": "2023-10-06T04:20:41.795Z",
+        "updated_at": "2023-10-06T14:19:28.686Z",
+        "car_id": "3e466422-326c-4a1c-9b00-d11a60fe8197"
+      },
+      {
+        "id": "9d79d2aa-d856-42d5-8cf8-1c1deacebd7c",
+        "maintenance_date": "2023-10-06T14:20:50.802Z",
+        "description": "Brake repair",
+        "cost": 69807,
+        "maintenance_status": "Delayed",
+        "created_at": "2023-10-06T17:47:14.524Z",
+        "updated_at": "2023-10-06T18:22:21.171Z",
+        "car_id": "9e78a3b9-912a-44c4-9096-e1d77b1abb77"
+      },
+      {
+        "id": "65acae2d-ea9d-4eff-a4fb-006ff1992acb",
+        "maintenance_date": "2023-10-06T07:19:39.831Z",
+        "description": "Battery replacement",
+        "cost": 6649,
+        "maintenance_status": "Cancelled",
+        "created_at": "2023-10-05T20:06:02.974Z",
+        "updated_at": "2023-10-06T15:59:47.319Z",
+        "car_id": "3640f7b2-af6c-4512-ab55-ed3a73c598d6"
+      }
+    ],
+    "booking": [
+      {
+        "id": "2c304a6c-6fa3-49d2-9db7-2c862cba9b51",
+        "start_time": "2023-10-06T03:43:52.861Z",
+        "end_time": "2023-10-06T02:57:45.041Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "booking_status": "Confirmed",
+        "created_at": "2023-10-06T14:49:31.219Z",
+        "updated_at": "2023-10-05T22:57:03.627Z",
+        "car_id": "828423f7-aeb0-4691-8d87-f2af86d4dca8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5fef86d-cafd-417e-9248-bb0d26bed99b",
+        "start_time": "2023-10-06T13:23:34.335Z",
+        "end_time": "2023-10-06T18:13:08.874Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "booking_status": "Pending",
+        "created_at": "2023-10-05T21:22:44.476Z",
+        "updated_at": "2023-10-06T17:02:32.951Z",
+        "car_id": "828423f7-aeb0-4691-8d87-f2af86d4dca8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57a3b067-9752-401e-8125-0afc96af0c78",
+        "start_time": "2023-10-06T00:01:06.065Z",
+        "end_time": "2023-10-06T16:16:33.758Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "booking_status": "Cancelled",
+        "created_at": "2023-10-06T06:57:34.654Z",
+        "updated_at": "2023-10-06T17:56:24.024Z",
+        "car_id": "9e78a3b9-912a-44c4-9096-e1d77b1abb77",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a447602-7209-4a38-bb99-9ea5b43cf80d",
+        "start_time": "2023-10-06T05:58:40.817Z",
+        "end_time": "2023-10-05T19:42:24.975Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "booking_status": "Completed",
+        "created_at": "2023-10-05T21:39:27.277Z",
+        "updated_at": "2023-10-06T03:08:45.206Z",
+        "car_id": "3e466422-326c-4a1c-9b00-d11a60fe8197",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2e854a5-eeab-4481-8692-77a12eaa294b",
+        "start_time": "2023-10-06T16:35:03.565Z",
+        "end_time": "2023-10-06T11:18:26.981Z",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "booking_status": "No Show",
+        "created_at": "2023-10-06T03:12:13.704Z",
+        "updated_at": "2023-10-05T21:31:23.153Z",
+        "car_id": "3e466422-326c-4a1c-9b00-d11a60fe8197",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "589d4555-56f4-47ca-9ef6-2198c705749e",
+        "email": "Beau.Walter@roq.tech",
+        "firstName": "Concepcion",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8547733",
+        "tenantId": null
+      },
+      {
+        "reference": "a321e334-c908-40b6-adf9-da755b533016",
+        "email": "Annabel.Hoppe@roq.tech",
+        "firstName": "Bianka",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/41.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ac9238b8-11b2-4f85-82b6-ccdcbcf3538a",
+        "email": "Jany.Franey@roq.tech",
+        "firstName": "Sherwood",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5924964",
+        "tenantId": null
+      },
+      {
+        "reference": "f6def266-b450-4891-8be8-20679dddd19c",
+        "email": "Jaycee.VonRueden@roq.tech",
+        "firstName": "Gwendolyn",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9102756",
+        "tenantId": null
+      },
+      {
+        "reference": "7ba20458-ab40-4d70-9c21-92cbdc21abf4",
+        "email": "Kelley.Bins@roq.tech",
+        "firstName": "Anabelle",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/663.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "b5725d88-7a00-411e-8cb7-d0d2c892e775",
+        "model": "Sedan",
+        "manufacturer": "Toyota",
+        "year_of_manufacture": 68170,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "availability_status": true,
+        "created_at": "2023-10-06T13:08:18.038Z",
+        "updated_at": "2023-10-06T02:02:15.672Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e4728edf-2214-49e7-89ee-38335852724c",
+        "model": "SUV",
+        "manufacturer": "Honda",
+        "year_of_manufacture": 23583,
+        "color": "Blue",
+        "registration_number": "XYZ789",
+        "availability_status": true,
+        "created_at": "2023-10-06T16:43:49.033Z",
+        "updated_at": "2023-10-05T22:38:40.628Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "851910e1-99e1-4484-83a1-0081d4783e6d",
+        "model": "Hatchback",
+        "manufacturer": "Ford",
+        "year_of_manufacture": 73543,
+        "color": "Green",
+        "registration_number": "123QWE",
+        "availability_status": false,
+        "created_at": "2023-10-06T07:50:56.569Z",
+        "updated_at": "2023-10-05T19:02:38.782Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "310854ef-d9a1-4688-9c79-25bbc479bf07",
+        "model": "Convertible",
+        "manufacturer": "Chevrolet",
+        "year_of_manufacture": 26726,
+        "color": "Black",
+        "registration_number": "456RTY",
+        "availability_status": true,
+        "created_at": "2023-10-06T12:52:24.367Z",
+        "updated_at": "2023-10-06T04:46:40.680Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "493ea485-21c8-4950-bf9c-12c8fe29e7b2",
+        "model": "Electric",
+        "manufacturer": "BMW",
+        "year_of_manufacture": 70279,
+        "color": "White",
+        "registration_number": "789UIO",
+        "availability_status": true,
+        "created_at": "2023-10-06T13:43:22.689Z",
+        "updated_at": "2023-10-06T01:05:42.017Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "a0a655bc-205d-4424-abe4-c659f1f0d152",
+        "rating": 98773,
+        "comment": "Great product!",
+        "review_date": "2023-10-06T11:13:17.378Z",
+        "created_at": "2023-10-06T04:18:29.678Z",
+        "updated_at": "2023-10-05T21:57:32.601Z",
+        "car_id": "b5725d88-7a00-411e-8cb7-d0d2c892e775",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d717cdf-6f79-433e-bbc9-4b263edd28d0",
+        "rating": 21135,
+        "comment": "Excellent service!",
+        "review_date": "2023-10-05T23:11:51.276Z",
+        "created_at": "2023-10-06T05:23:00.284Z",
+        "updated_at": "2023-10-06T03:53:02.253Z",
+        "car_id": "b5725d88-7a00-411e-8cb7-d0d2c892e775",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90f27022-ba31-431d-a69d-e04c2dccce1e",
+        "rating": 53345,
+        "comment": "Highly recommended!",
+        "review_date": "2023-10-06T08:28:34.949Z",
+        "created_at": "2023-10-05T21:50:08.318Z",
+        "updated_at": "2023-10-06T01:50:52.491Z",
+        "car_id": "851910e1-99e1-4484-83a1-0081d4783e6d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "765906cc-7d87-41ec-bbe2-616aff38c8f3",
+        "rating": 28884,
+        "comment": "Impressive quality!",
+        "review_date": "2023-10-06T01:56:38.410Z",
+        "created_at": "2023-10-06T07:01:55.032Z",
+        "updated_at": "2023-10-05T21:09:52.207Z",
+        "car_id": "310854ef-d9a1-4688-9c79-25bbc479bf07",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d2ce6be-16f2-4186-96f7-df22abd04d3d",
+        "rating": 46228,
+        "comment": "Very satisfied!",
+        "review_date": "2023-10-06T14:00:10.128Z",
+        "created_at": "2023-10-06T11:38:23.878Z",
+        "updated_at": "2023-10-06T07:22:03.685Z",
+        "car_id": "b5725d88-7a00-411e-8cb7-d0d2c892e775",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "maintenance": [
+      {
+        "id": "5109c0eb-eb0c-4855-af11-bae3dfb560a5",
+        "maintenance_date": "2023-10-06T02:49:47.046Z",
+        "description": "Routine checkup",
+        "cost": 63643,
+        "maintenance_status": "In progress",
+        "created_at": "2023-10-06T04:12:40.488Z",
+        "updated_at": "2023-10-06T14:44:30.305Z",
+        "car_id": "310854ef-d9a1-4688-9c79-25bbc479bf07"
+      },
+      {
+        "id": "a73b5259-1a47-4f35-9334-5684f7acd88c",
+        "maintenance_date": "2023-10-06T14:19:39.488Z",
+        "description": "Oil change",
+        "cost": 82067,
+        "maintenance_status": "Completed",
+        "created_at": "2023-10-06T09:17:01.886Z",
+        "updated_at": "2023-10-06T03:00:33.770Z",
+        "car_id": "851910e1-99e1-4484-83a1-0081d4783e6d"
+      },
+      {
+        "id": "df9d0b3f-20d1-471c-8079-52be7954c630",
+        "maintenance_date": "2023-10-06T14:32:04.922Z",
+        "description": "Tire rotation",
+        "cost": 75215,
+        "maintenance_status": "Scheduled",
+        "created_at": "2023-10-06T13:47:20.467Z",
+        "updated_at": "2023-10-05T22:03:50.902Z",
+        "car_id": "851910e1-99e1-4484-83a1-0081d4783e6d"
+      },
+      {
+        "id": "19c50af7-fbce-4ee2-ad0e-2f2e12b7b5db",
+        "maintenance_date": "2023-10-06T14:34:46.215Z",
+        "description": "Brake inspection",
+        "cost": 20309,
+        "maintenance_status": "Pending",
+        "created_at": "2023-10-06T02:16:20.487Z",
+        "updated_at": "2023-10-06T02:08:04.659Z",
+        "car_id": "310854ef-d9a1-4688-9c79-25bbc479bf07"
+      },
+      {
+        "id": "29131234-285a-4150-9a90-3f18547e78d3",
+        "maintenance_date": "2023-10-06T05:40:20.265Z",
+        "description": "Battery replacement",
+        "cost": 24925,
+        "maintenance_status": "Cancelled",
+        "created_at": "2023-10-05T19:27:31.116Z",
+        "updated_at": "2023-10-06T08:38:46.777Z",
+        "car_id": "851910e1-99e1-4484-83a1-0081d4783e6d"
+      }
+    ],
+    "booking": [
+      {
+        "id": "a139013a-d6c3-424a-a154-32633d3ca0d5",
+        "start_time": "2023-10-06T06:25:08.771Z",
+        "end_time": "2023-10-06T17:43:44.470Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Beach",
+        "booking_status": "Confirmed",
+        "created_at": "2023-10-06T07:08:40.843Z",
+        "updated_at": "2023-10-05T22:26:41.797Z",
+        "car_id": "493ea485-21c8-4950-bf9c-12c8fe29e7b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c6f805a-7090-4716-8445-2fae70e8d045",
+        "start_time": "2023-10-05T20:27:13.913Z",
+        "end_time": "2023-10-06T08:21:20.234Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Mountain",
+        "booking_status": "Cancelled",
+        "created_at": "2023-10-06T04:04:43.600Z",
+        "updated_at": "2023-10-06T09:58:46.282Z",
+        "car_id": "493ea485-21c8-4950-bf9c-12c8fe29e7b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5364ab6c-6b38-4e64-8e0c-a64e172f97a7",
+        "start_time": "2023-10-06T14:36:06.405Z",
+        "end_time": "2023-10-06T02:02:43.364Z",
+        "pickup_location": "City center",
+        "dropoff_location": "National park",
+        "booking_status": "Pending",
+        "created_at": "2023-10-06T13:09:13.085Z",
+        "updated_at": "2023-10-06T15:03:35.829Z",
+        "car_id": "310854ef-d9a1-4688-9c79-25bbc479bf07",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf73dfa9-96f6-4b4a-a215-e42bb4df38f2",
+        "start_time": "2023-10-05T19:13:59.971Z",
+        "end_time": "2023-10-06T07:58:50.351Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Museum",
+        "booking_status": "Completed",
+        "created_at": "2023-10-06T00:45:33.250Z",
+        "updated_at": "2023-10-05T22:50:06.580Z",
+        "car_id": "b5725d88-7a00-411e-8cb7-d0d2c892e775",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b8abdf8-bbeb-46a2-9672-da1ca2ea7355",
+        "start_time": "2023-10-06T17:45:07.347Z",
+        "end_time": "2023-10-06T12:30:23.319Z",
+        "pickup_location": "Shopping mall",
+        "dropoff_location": "Restaurant",
+        "booking_status": "In progress",
+        "created_at": "2023-10-06T08:21:28.709Z",
+        "updated_at": "2023-10-06T01:49:01.595Z",
+        "car_id": "851910e1-99e1-4484-83a1-0081d4783e6d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "83704800-be8f-4478-8fee-4d05c8f8b5f2",
+        "email": "Annabell_Feeney@roq.tech",
+        "firstName": "Roel",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13851751",
+        "tenantId": null
+      },
+      {
+        "reference": "d30c9fd3-949e-494f-867b-e9e0cb846c2b",
+        "email": "Kylee_Jenkins@roq.tech",
+        "firstName": "Jayne",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85764882",
+        "tenantId": null
+      },
+      {
+        "reference": "1500cfff-91ed-4a70-8133-16a3358cff26",
+        "email": "Lydia16@roq.tech",
+        "firstName": "Mitchel",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2572ce8b-9ab9-40a1-8134-22be43b75eef",
+        "email": "Jevon_Cronin91@roq.tech",
+        "firstName": "Sid",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75737463",
+        "tenantId": null
+      },
+      {
+        "reference": "e05d02db-a956-48c6-a1a2-a5b67eec7c9f",
+        "email": "Sheridan_Schamberger70@roq.tech",
+        "firstName": "Alexzander",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/949.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "4db2fe9c-0434-4e4a-811f-6c6544932541",
+        "model": "Sedan",
+        "manufacturer": "Toyota",
+        "year_of_manufacture": 65544,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "availability_status": true,
+        "created_at": "2023-10-06T14:46:23.787Z",
+        "updated_at": "2023-10-06T09:00:39.877Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "89d70d39-80bb-47e2-8b08-6ded7bed6a57",
+        "model": "SUV",
+        "manufacturer": "Honda",
+        "year_of_manufacture": 14746,
+        "color": "Blue",
+        "registration_number": "XYZ456",
+        "availability_status": false,
+        "created_at": "2023-10-05T20:47:41.764Z",
+        "updated_at": "2023-10-06T02:06:26.599Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "90dc884f-93a1-4de2-ab11-33ec9b7e3a9e",
+        "model": "Hatchback",
+        "manufacturer": "Ford",
+        "year_of_manufacture": 5053,
+        "color": "Green",
+        "registration_number": "123ABC",
+        "availability_status": false,
+        "created_at": "2023-10-06T05:18:43.551Z",
+        "updated_at": "2023-10-05T23:35:13.927Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a399056b-426e-482a-b522-5d704b9df588",
+        "model": "Convertible",
+        "manufacturer": "Chevrolet",
+        "year_of_manufacture": 9086,
+        "color": "Silver",
+        "registration_number": "456XYZ",
+        "availability_status": false,
+        "created_at": "2023-10-06T16:34:39.402Z",
+        "updated_at": "2023-10-06T17:37:42.579Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "965ab525-a3b5-4d0f-84ab-9495744a523e",
+        "model": "Sports Car",
+        "manufacturer": "BMW",
+        "year_of_manufacture": 69847,
+        "color": "Black",
+        "registration_number": "789DEF",
+        "availability_status": true,
+        "created_at": "2023-10-05T19:24:53.238Z",
+        "updated_at": "2023-10-06T03:42:56.594Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "c320ef0e-206f-43b1-a8dd-7f948003ffdf",
+        "rating": 77256,
+        "comment": "Great product!",
+        "review_date": "2023-10-05T20:07:42.332Z",
+        "created_at": "2023-10-05T18:49:25.058Z",
+        "updated_at": "2023-10-06T09:27:05.551Z",
+        "car_id": "89d70d39-80bb-47e2-8b08-6ded7bed6a57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b17b00df-fa82-4942-aa96-655f577aa7c9",
+        "rating": 44196,
+        "comment": "Excellent service!",
+        "review_date": "2023-10-05T21:45:42.717Z",
+        "created_at": "2023-10-06T12:00:39.426Z",
+        "updated_at": "2023-10-06T07:48:35.804Z",
+        "car_id": "89d70d39-80bb-47e2-8b08-6ded7bed6a57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7994147c-30eb-4e57-9c8a-bfefe7bf38a6",
+        "rating": 12524,
+        "comment": "Highly recommended!",
+        "review_date": "2023-10-06T16:08:25.114Z",
+        "created_at": "2023-10-06T04:55:11.434Z",
+        "updated_at": "2023-10-05T20:35:14.930Z",
+        "car_id": "90dc884f-93a1-4de2-ab11-33ec9b7e3a9e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f2ccdb1-fec1-4fd9-892c-751375912d0b",
+        "rating": 14099,
+        "comment": "Very satisfied!",
+        "review_date": "2023-10-06T01:48:04.658Z",
+        "created_at": "2023-10-06T04:58:46.475Z",
+        "updated_at": "2023-10-05T22:10:14.589Z",
+        "car_id": "89d70d39-80bb-47e2-8b08-6ded7bed6a57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d349d550-c76c-45d8-8817-8173da80289c",
+        "rating": 52876,
+        "comment": "Impressive quality!",
+        "review_date": "2023-10-05T23:26:51.844Z",
+        "created_at": "2023-10-06T08:29:46.282Z",
+        "updated_at": "2023-10-06T12:42:23.076Z",
+        "car_id": "4db2fe9c-0434-4e4a-811f-6c6544932541",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "maintenance": [
+      {
+        "id": "236aec80-e47d-4349-9b5f-f647413023ac",
+        "maintenance_date": "2023-10-06T06:38:31.287Z",
+        "description": "Routine check-up",
+        "cost": 7382,
+        "maintenance_status": "Pending",
+        "created_at": "2023-10-06T18:46:10.283Z",
+        "updated_at": "2023-10-06T06:23:13.606Z",
+        "car_id": "965ab525-a3b5-4d0f-84ab-9495744a523e"
+      },
+      {
+        "id": "7b6c89d9-c0d4-434f-b675-fef359c5122e",
+        "maintenance_date": "2023-10-06T08:02:29.688Z",
+        "description": "Oil change",
+        "cost": 58577,
+        "maintenance_status": "In progress",
+        "created_at": "2023-10-06T04:22:05.838Z",
+        "updated_at": "2023-10-06T02:47:28.766Z",
+        "car_id": "90dc884f-93a1-4de2-ab11-33ec9b7e3a9e"
+      },
+      {
+        "id": "484ffab0-311f-4c57-80e3-4b5d81be16f0",
+        "maintenance_date": "2023-10-06T07:41:42.514Z",
+        "description": "Tire rotation",
+        "cost": 52790,
+        "maintenance_status": "Completed",
+        "created_at": "2023-10-06T17:32:26.363Z",
+        "updated_at": "2023-10-05T23:40:49.565Z",
+        "car_id": "89d70d39-80bb-47e2-8b08-6ded7bed6a57"
+      },
+      {
+        "id": "a2f52d7a-3768-4566-9e51-14de17bc2257",
+        "maintenance_date": "2023-10-06T09:27:15.449Z",
+        "description": "Brake inspection",
+        "cost": 42894,
+        "maintenance_status": "Cancelled",
+        "created_at": "2023-10-06T16:44:21.681Z",
+        "updated_at": "2023-10-06T00:09:19.205Z",
+        "car_id": "90dc884f-93a1-4de2-ab11-33ec9b7e3a9e"
+      },
+      {
+        "id": "a1a1add0-e1be-462f-b6d6-feb74fbca6f1",
+        "maintenance_date": "2023-10-06T11:42:49.510Z",
+        "description": "Battery replacement",
+        "cost": 16907,
+        "maintenance_status": "Scheduled",
+        "created_at": "2023-10-06T01:21:09.690Z",
+        "updated_at": "2023-10-06T01:51:07.310Z",
+        "car_id": "90dc884f-93a1-4de2-ab11-33ec9b7e3a9e"
+      }
+    ],
+    "booking": [
+      {
+        "id": "8337be42-83a7-4868-aa48-1d0f1e2a67a2",
+        "start_time": "2023-10-05T20:02:28.660Z",
+        "end_time": "2023-10-06T11:39:51.321Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City center",
+        "booking_status": "Confirmed",
+        "created_at": "2023-10-06T08:54:48.252Z",
+        "updated_at": "2023-10-06T10:03:15.482Z",
+        "car_id": "4db2fe9c-0434-4e4a-811f-6c6544932541",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a997390-73b0-48a7-ac8c-c0865351cd7a",
+        "start_time": "2023-10-06T06:16:56.614Z",
+        "end_time": "2023-10-06T14:12:36.447Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Shopping mall",
+        "booking_status": "Pending",
+        "created_at": "2023-10-06T14:02:33.213Z",
+        "updated_at": "2023-10-06T01:34:00.494Z",
+        "car_id": "4db2fe9c-0434-4e4a-811f-6c6544932541",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dae9cf3-5dec-4ac7-91f8-b4fc82df7eb3",
+        "start_time": "2023-10-06T01:41:04.272Z",
+        "end_time": "2023-10-05T20:06:37.984Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "booking_status": "Cancelled",
+        "created_at": "2023-10-06T03:22:58.611Z",
+        "updated_at": "2023-10-05T20:03:04.708Z",
+        "car_id": "965ab525-a3b5-4d0f-84ab-9495744a523e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7c95542-62c6-4e36-8c34-50f1888bfdc1",
+        "start_time": "2023-10-06T07:25:29.973Z",
+        "end_time": "2023-10-06T07:28:50.902Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "booking_status": "Completed",
+        "created_at": "2023-10-06T02:01:50.820Z",
+        "updated_at": "2023-10-06T08:53:05.978Z",
+        "car_id": "89d70d39-80bb-47e2-8b08-6ded7bed6a57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35f5f191-b34d-4855-a9f1-0dda45190d03",
+        "start_time": "2023-10-05T18:58:34.364Z",
+        "end_time": "2023-10-05T23:33:28.582Z",
+        "pickup_location": "Residential area",
+        "dropoff_location": "Beach",
+        "booking_status": "On hold",
+        "created_at": "2023-10-06T00:34:34.813Z",
+        "updated_at": "2023-10-06T16:42:31.862Z",
+        "car_id": "90dc884f-93a1-4de2-ab11-33ec9b7e3a9e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f5cce88d-31ae-4f3b-8c07-155afd1d92ba",
+        "email": "Flossie.Oberbrunner28@roq.tech",
+        "firstName": "Dolly",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15702483",
+        "tenantId": null
+      },
+      {
+        "reference": "4d2c8993-4adf-4d48-abd3-f5ea4ca01074",
+        "email": "Jacey.Jones74@roq.tech",
+        "firstName": "Antonette",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/877.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "234240de-78b7-49b0-a324-35c995e601c7",
+        "email": "Hayden_Walker@roq.tech",
+        "firstName": "Hadley",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/659.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8109bc3f-bfa0-4c13-9822-feefb0a711a6",
+        "email": "Princess_Tillman7@roq.tech",
+        "firstName": "Abraham",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1044.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "07b91cb0-e763-43f8-9ca4-819cc962e0a3",
+        "email": "Hassie_Mann63@roq.tech",
+        "firstName": "Audie",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87383334",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "f47559fa-bc15-47a7-a2ba-bc889e46a23e",
+        "model": "Sedan",
+        "manufacturer": "Toyota",
+        "year_of_manufacture": 78925,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "availability_status": true,
+        "created_at": "2023-10-05T20:05:48.685Z",
+        "updated_at": "2023-10-06T17:10:01.070Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "291017f2-7938-42cf-a7b8-6ba08c93e65e",
+        "model": "SUV",
+        "manufacturer": "Honda",
+        "year_of_manufacture": 27922,
+        "color": "Blue",
+        "registration_number": "XYZ789",
+        "availability_status": false,
+        "created_at": "2023-10-06T01:38:11.294Z",
+        "updated_at": "2023-10-06T01:03:05.918Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4ab8db9e-0cca-4bf8-863b-0d76efe4e6b6",
+        "model": "Hatchback",
+        "manufacturer": "Ford",
+        "year_of_manufacture": 97218,
+        "color": "Green",
+        "registration_number": "123456",
+        "availability_status": false,
+        "created_at": "2023-10-06T04:27:17.096Z",
+        "updated_at": "2023-10-06T11:58:51.691Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "69614e30-4983-418d-9de7-d39b617b330f",
+        "model": "Convertible",
+        "manufacturer": "Chevrolet",
+        "year_of_manufacture": 68871,
+        "color": "Black",
+        "registration_number": "DEF456",
+        "availability_status": true,
+        "created_at": "2023-10-06T02:41:42.790Z",
+        "updated_at": "2023-10-06T12:08:21.522Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5861d068-994c-417e-9c21-bb854fbd166c",
+        "model": "Sports Car",
+        "manufacturer": "BMW",
+        "year_of_manufacture": 90998,
+        "color": "White",
+        "registration_number": "GHI789",
+        "availability_status": false,
+        "created_at": "2023-10-06T04:55:47.374Z",
+        "updated_at": "2023-10-05T22:50:18.366Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "5c58bd45-31f7-4015-b176-4d28e6e98bcd",
+        "rating": 96177,
+        "comment": "Great product!",
+        "review_date": "2023-10-05T22:50:12.413Z",
+        "created_at": "2023-10-05T19:07:49.375Z",
+        "updated_at": "2023-10-06T05:29:35.447Z",
+        "car_id": "5861d068-994c-417e-9c21-bb854fbd166c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "639ef569-78a0-4c9b-a12d-c5332275b658",
+        "rating": 40302,
+        "comment": "Excellent service!",
+        "review_date": "2023-10-05T21:50:42.331Z",
+        "created_at": "2023-10-05T23:58:55.938Z",
+        "updated_at": "2023-10-05T20:42:22.899Z",
+        "car_id": "f47559fa-bc15-47a7-a2ba-bc889e46a23e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b986c949-721c-4b70-9e97-53ce215f3bbf",
+        "rating": 10889,
+        "comment": "Highly recommended!",
+        "review_date": "2023-10-06T02:12:16.108Z",
+        "created_at": "2023-10-06T12:00:34.826Z",
+        "updated_at": "2023-10-06T08:18:50.400Z",
+        "car_id": "4ab8db9e-0cca-4bf8-863b-0d76efe4e6b6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e73ab4fd-ff4d-4a25-99ee-dc5a50550477",
+        "rating": 72706,
+        "comment": "Very satisfied!",
+        "review_date": "2023-10-06T14:41:54.042Z",
+        "created_at": "2023-10-06T14:44:35.353Z",
+        "updated_at": "2023-10-06T11:45:09.092Z",
+        "car_id": "f47559fa-bc15-47a7-a2ba-bc889e46a23e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6472458-28d7-4b91-8da8-212cfcaa30f5",
+        "rating": 44390,
+        "comment": "Impressive quality!",
+        "review_date": "2023-10-05T23:17:13.879Z",
+        "created_at": "2023-10-05T19:01:01.355Z",
+        "updated_at": "2023-10-06T12:21:25.999Z",
+        "car_id": "5861d068-994c-417e-9c21-bb854fbd166c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "maintenance": [
+      {
+        "id": "bef8ab20-5d1e-426e-8fac-cfa207f0903d",
+        "maintenance_date": "2023-10-06T12:34:39.770Z",
+        "description": "Routine check-up",
+        "cost": 70570,
+        "maintenance_status": "Pending",
+        "created_at": "2023-10-06T17:24:14.966Z",
+        "updated_at": "2023-10-06T01:21:04.672Z",
+        "car_id": "291017f2-7938-42cf-a7b8-6ba08c93e65e"
+      },
+      {
+        "id": "651b80b4-032e-4961-b222-1100758466bc",
+        "maintenance_date": "2023-10-05T20:48:24.068Z",
+        "description": "Oil change",
+        "cost": 67606,
+        "maintenance_status": "In Progress",
+        "created_at": "2023-10-06T07:11:17.962Z",
+        "updated_at": "2023-10-06T00:25:57.557Z",
+        "car_id": "291017f2-7938-42cf-a7b8-6ba08c93e65e"
+      },
+      {
+        "id": "92f6e125-f148-4781-b282-e842b4553a31",
+        "maintenance_date": "2023-10-05T18:49:32.332Z",
+        "description": "Tire rotation",
+        "cost": 9663,
+        "maintenance_status": "Completed",
+        "created_at": "2023-10-06T16:16:53.428Z",
+        "updated_at": "2023-10-05T21:25:16.343Z",
+        "car_id": "4ab8db9e-0cca-4bf8-863b-0d76efe4e6b6"
+      },
+      {
+        "id": "fcdf958a-c7ea-4357-8fbc-141969de7cc3",
+        "maintenance_date": "2023-10-06T14:35:12.340Z",
+        "description": "Brake inspection",
+        "cost": 34232,
+        "maintenance_status": "Cancelled",
+        "created_at": "2023-10-05T23:20:09.208Z",
+        "updated_at": "2023-10-06T15:54:57.373Z",
+        "car_id": "69614e30-4983-418d-9de7-d39b617b330f"
+      },
+      {
+        "id": "660c1d57-35fb-4435-865d-41966ade900f",
+        "maintenance_date": "2023-10-06T09:58:44.696Z",
+        "description": "Battery replacement",
+        "cost": 7946,
+        "maintenance_status": "Delayed",
+        "created_at": "2023-10-06T13:06:01.219Z",
+        "updated_at": "2023-10-06T00:48:20.789Z",
+        "car_id": "69614e30-4983-418d-9de7-d39b617b330f"
+      }
+    ],
+    "booking": [
+      {
+        "id": "fe47baf2-3494-41aa-b63b-0f9f16253694",
+        "start_time": "2023-10-06T06:18:42.127Z",
+        "end_time": "2023-10-06T00:53:57.107Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City center",
+        "booking_status": "Confirmed",
+        "created_at": "2023-10-06T06:14:00.103Z",
+        "updated_at": "2023-10-06T08:43:17.227Z",
+        "car_id": "f47559fa-bc15-47a7-a2ba-bc889e46a23e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e80ed55-d330-4244-a814-d8aa1a41cc6e",
+        "start_time": "2023-10-06T09:04:22.085Z",
+        "end_time": "2023-10-06T16:56:55.847Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Residential area",
+        "booking_status": "Pending",
+        "created_at": "2023-10-06T18:19:00.557Z",
+        "updated_at": "2023-10-06T02:53:36.470Z",
+        "car_id": "5861d068-994c-417e-9c21-bb854fbd166c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa4d74f2-1643-4154-b82a-b501d7d6bbbc",
+        "start_time": "2023-10-05T19:15:51.714Z",
+        "end_time": "2023-10-06T06:07:45.134Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Tourist attraction",
+        "booking_status": "Cancelled",
+        "created_at": "2023-10-05T21:19:49.584Z",
+        "updated_at": "2023-10-06T13:42:02.818Z",
+        "car_id": "69614e30-4983-418d-9de7-d39b617b330f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bab6c035-0e96-41cc-b081-b1d8df0e3965",
+        "start_time": "2023-10-06T11:01:00.473Z",
+        "end_time": "2023-10-06T00:01:50.931Z",
+        "pickup_location": "Shopping mall",
+        "dropoff_location": "Restaurant",
+        "booking_status": "Completed",
+        "created_at": "2023-10-06T14:01:02.123Z",
+        "updated_at": "2023-10-06T10:04:06.325Z",
+        "car_id": "291017f2-7938-42cf-a7b8-6ba08c93e65e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0aeebffd-fb84-42da-9642-ef82e95dbc41",
+        "start_time": "2023-10-06T01:30:51.230Z",
+        "end_time": "2023-10-06T17:57:49.601Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "booking_status": "In Progress",
+        "created_at": "2023-10-06T04:21:54.159Z",
+        "updated_at": "2023-10-06T05:41:15.896Z",
+        "car_id": "291017f2-7938-42cf-a7b8-6ba08c93e65e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e55d822c-d6b1-4c29-a13b-738fd923e72a",
+        "email": "Lela_Streich-Murphy@roq.tech",
+        "firstName": "Sincere",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43526740",
+        "tenantId": null
+      },
+      {
+        "reference": "f9c7ee52-9bc1-42a3-b504-0212509e9282",
+        "email": "Agustina30@roq.tech",
+        "firstName": "Uriel",
+        "lastName": "Beier-Gleichner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59064414",
+        "tenantId": null
+      },
+      {
+        "reference": "d765f4ad-a2ab-4c83-b178-075bac270917",
+        "email": "Kariane.Upton@roq.tech",
+        "firstName": "Beau",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80285217",
+        "tenantId": null
+      },
+      {
+        "reference": "3caa34dc-d019-4834-811b-0be977db028a",
+        "email": "Sylvan53@roq.tech",
+        "firstName": "Ardith",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74464213",
+        "tenantId": null
+      },
+      {
+        "reference": "4e49422c-56f6-4936-a747-5ad2a7002434",
+        "email": "Elmore36@roq.tech",
+        "firstName": "Dee",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43626102",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "c659fc99-25ca-49d8-b4fb-501d5bb5b1ae",
+        "model": "Sedan",
+        "manufacturer": "Toyota",
+        "year_of_manufacture": 1389,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "availability_status": true,
+        "created_at": "2023-10-06T08:51:39.937Z",
+        "updated_at": "2023-10-05T22:13:22.135Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e65a9a4d-4d8c-4673-9b4e-30c56f78e238",
+        "model": "SUV",
+        "manufacturer": "Honda",
+        "year_of_manufacture": 71706,
+        "color": "Blue",
+        "registration_number": "XYZ789",
+        "availability_status": true,
+        "created_at": "2023-10-06T11:46:56.780Z",
+        "updated_at": "2023-10-06T16:00:04.419Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e257b184-315d-42a5-8921-445af7fd473c",
+        "model": "Hatchback",
+        "manufacturer": "Ford",
+        "year_of_manufacture": 14130,
+        "color": "Green",
+        "registration_number": "123QWE",
+        "availability_status": true,
+        "created_at": "2023-10-06T03:58:52.957Z",
+        "updated_at": "2023-10-06T07:02:25.330Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "40872bd7-0477-4b11-bea4-be95ce640c01",
+        "model": "Convertible",
+        "manufacturer": "Chevrolet",
+        "year_of_manufacture": 98399,
+        "color": "Silver",
+        "registration_number": "456RTY",
+        "availability_status": true,
+        "created_at": "2023-10-06T06:41:48.793Z",
+        "updated_at": "2023-10-06T02:22:20.853Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "95ab479e-7e92-4167-920a-f65f9adea857",
+        "model": "Sports Car",
+        "manufacturer": "BMW",
+        "year_of_manufacture": 26920,
+        "color": "Black",
+        "registration_number": "789UIO",
+        "availability_status": false,
+        "created_at": "2023-10-06T08:17:17.755Z",
+        "updated_at": "2023-10-06T10:24:47.587Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "43763529-7146-40a9-95e1-8106517d7572",
+        "rating": 5801,
+        "comment": "Great product!",
+        "review_date": "2023-10-05T21:12:24.315Z",
+        "created_at": "2023-10-06T09:51:15.997Z",
+        "updated_at": "2023-10-06T00:53:36.570Z",
+        "car_id": "95ab479e-7e92-4167-920a-f65f9adea857",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ac4c24d-6646-4887-82be-3351bd1500cc",
+        "rating": 97539,
+        "comment": "Excellent service!",
+        "review_date": "2023-10-06T03:43:37.445Z",
+        "created_at": "2023-10-06T15:52:32.355Z",
+        "updated_at": "2023-10-05T23:31:28.413Z",
+        "car_id": "e65a9a4d-4d8c-4673-9b4e-30c56f78e238",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0703d890-cbb3-40de-bee0-442b37148951",
+        "rating": 6458,
+        "comment": "Highly recommended!",
+        "review_date": "2023-10-05T22:45:16.108Z",
+        "created_at": "2023-10-06T07:56:02.899Z",
+        "updated_at": "2023-10-06T01:15:55.704Z",
+        "car_id": "40872bd7-0477-4b11-bea4-be95ce640c01",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0085d6f-df70-420e-bc63-50f2a4e2ac02",
+        "rating": 16252,
+        "comment": "Impressive quality!",
+        "review_date": "2023-10-06T03:15:44.943Z",
+        "created_at": "2023-10-06T13:33:52.528Z",
+        "updated_at": "2023-10-05T19:48:13.927Z",
+        "car_id": "e65a9a4d-4d8c-4673-9b4e-30c56f78e238",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "366dc817-07e4-4c49-acc8-2100051e1b5a",
+        "rating": 70514,
+        "comment": "Fantastic experience!",
+        "review_date": "2023-10-06T01:53:30.895Z",
+        "created_at": "2023-10-06T00:27:41.836Z",
+        "updated_at": "2023-10-06T18:45:15.294Z",
+        "car_id": "95ab479e-7e92-4167-920a-f65f9adea857",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "maintenance": [
+      {
+        "id": "8854e4af-985c-4c23-b371-c7a0ea0d8c5a",
+        "maintenance_date": "2023-10-06T18:43:43.023Z",
+        "description": "Routine checkup",
+        "cost": 92831,
+        "maintenance_status": "Completed",
+        "created_at": "2023-10-06T13:40:27.203Z",
+        "updated_at": "2023-10-06T10:15:22.655Z",
+        "car_id": "40872bd7-0477-4b11-bea4-be95ce640c01"
+      },
+      {
+        "id": "6a1f8af7-81c8-4e0e-8714-4c9b387769b0",
+        "maintenance_date": "2023-10-05T22:33:43.485Z",
+        "description": "Oil change",
+        "cost": 85663,
+        "maintenance_status": "In progress",
+        "created_at": "2023-10-06T06:24:25.364Z",
+        "updated_at": "2023-10-06T12:29:50.053Z",
+        "car_id": "e65a9a4d-4d8c-4673-9b4e-30c56f78e238"
+      },
+      {
+        "id": "6844e2b5-a5fe-42fb-884a-6c843826aa10",
+        "maintenance_date": "2023-10-06T05:24:50.716Z",
+        "description": "Tire rotation",
+        "cost": 81762,
+        "maintenance_status": "Scheduled",
+        "created_at": "2023-10-06T11:38:28.192Z",
+        "updated_at": "2023-10-06T13:50:22.968Z",
+        "car_id": "e257b184-315d-42a5-8921-445af7fd473c"
+      },
+      {
+        "id": "cc0de326-3273-4be0-b030-72db16eb9593",
+        "maintenance_date": "2023-10-06T17:19:32.896Z",
+        "description": "Brake inspection",
+        "cost": 45502,
+        "maintenance_status": "Pending",
+        "created_at": "2023-10-05T22:30:25.072Z",
+        "updated_at": "2023-10-06T11:45:08.611Z",
+        "car_id": "e65a9a4d-4d8c-4673-9b4e-30c56f78e238"
+      },
+      {
+        "id": "d3bce12f-b461-43d3-a4c8-11637210914f",
+        "maintenance_date": "2023-10-06T02:48:56.823Z",
+        "description": "Battery replacement",
+        "cost": 3592,
+        "maintenance_status": "Cancelled",
+        "created_at": "2023-10-06T15:07:14.710Z",
+        "updated_at": "2023-10-06T18:36:05.049Z",
+        "car_id": "95ab479e-7e92-4167-920a-f65f9adea857"
+      }
+    ],
+    "booking": [
+      {
+        "id": "5aabf2b1-784b-4307-967b-b1e3a3ad07a1",
+        "start_time": "2023-10-06T06:39:38.400Z",
+        "end_time": "2023-10-06T11:00:40.261Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Beach",
+        "booking_status": "Confirmed",
+        "created_at": "2023-10-05T19:09:39.307Z",
+        "updated_at": "2023-10-06T18:33:38.852Z",
+        "car_id": "40872bd7-0477-4b11-bea4-be95ce640c01",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "389e6e91-5bd5-4f13-b80e-2638e570cc40",
+        "start_time": "2023-10-05T20:34:37.374Z",
+        "end_time": "2023-10-06T11:05:28.786Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Mountain",
+        "booking_status": "Cancelled",
+        "created_at": "2023-10-06T11:06:04.274Z",
+        "updated_at": "2023-10-06T15:04:32.418Z",
+        "car_id": "e65a9a4d-4d8c-4673-9b4e-30c56f78e238",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0edaff6f-d7a9-4b80-8770-afbccad53180",
+        "start_time": "2023-10-06T06:43:52.928Z",
+        "end_time": "2023-10-06T05:12:11.410Z",
+        "pickup_location": "City center",
+        "dropoff_location": "National park",
+        "booking_status": "Pending",
+        "created_at": "2023-10-05T22:49:48.275Z",
+        "updated_at": "2023-10-06T13:50:09.203Z",
+        "car_id": "c659fc99-25ca-49d8-b4fb-501d5bb5b1ae",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ff1720c-dc6c-4ed9-b135-731a94ce85be",
+        "start_time": "2023-10-06T09:59:40.723Z",
+        "end_time": "2023-10-06T16:55:21.888Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Museum",
+        "booking_status": "Completed",
+        "created_at": "2023-10-06T17:27:15.676Z",
+        "updated_at": "2023-10-06T07:54:41.274Z",
+        "car_id": "e257b184-315d-42a5-8921-445af7fd473c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "981fcf76-0ab5-45fb-b882-1169a5f8f393",
+        "start_time": "2023-10-06T13:02:47.262Z",
+        "end_time": "2023-10-06T18:02:17.304Z",
+        "pickup_location": "Shopping mall",
+        "dropoff_location": "Restaurant",
+        "booking_status": "On hold",
+        "created_at": "2023-10-05T20:26:55.748Z",
+        "updated_at": "2023-10-05T19:25:17.106Z",
+        "car_id": "c659fc99-25ca-49d8-b4fb-501d5bb5b1ae",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1db77cdf-5450-4f00-90b3-e242d97386cd",
+        "email": "Roxane55@roq.tech",
+        "firstName": "Shania",
+        "lastName": "Kessler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83880673",
+        "tenantId": null
+      },
+      {
+        "reference": "7c133ec0-bf12-4601-95f5-13446dfe651d",
+        "email": "Ernestina_Haag80@roq.tech",
+        "firstName": "Junior",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/510.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "85325f4c-49e2-4cb5-9ae9-869b0572673d",
+        "email": "Fiona_VonRueden35@roq.tech",
+        "firstName": "Alf",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/57.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "feb939d6-ff6d-4463-89dc-bbd25fcfe16e",
+        "email": "Vida_Stanton@roq.tech",
+        "firstName": "Rodrigo",
+        "lastName": "Rau",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/863.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "61ac7184-3e90-4f1c-bb06-5d49f4a2dd50",
+        "email": "Elenora_Franey@roq.tech",
+        "firstName": "Alek",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53501770",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "7d70a929-f210-4c7e-820c-6fc126a3d132",
+        "model": "Sedan",
+        "manufacturer": "Toyota",
+        "year_of_manufacture": 19498,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "availability_status": true,
+        "created_at": "2023-10-06T07:02:43.358Z",
+        "updated_at": "2023-10-05T19:28:36.784Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "17b3c5af-44c3-4b9d-8870-7672c5f8fca3",
+        "model": "SUV",
+        "manufacturer": "Honda",
+        "year_of_manufacture": 82744,
+        "color": "Blue",
+        "registration_number": "XYZ456",
+        "availability_status": false,
+        "created_at": "2023-10-06T08:19:54.833Z",
+        "updated_at": "2023-10-05T22:19:55.713Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7338705b-43b0-4f26-81a9-b2d902635a39",
+        "model": "Hatchback",
+        "manufacturer": "Ford",
+        "year_of_manufacture": 41495,
+        "color": "Green",
+        "registration_number": "123ABC",
+        "availability_status": false,
+        "created_at": "2023-10-06T15:57:00.209Z",
+        "updated_at": "2023-10-05T20:27:12.320Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d3b04d47-c5af-42ba-85cc-a6b020541601",
+        "model": "Convertible",
+        "manufacturer": "BMW",
+        "year_of_manufacture": 46086,
+        "color": "Black",
+        "registration_number": "456XYZ",
+        "availability_status": true,
+        "created_at": "2023-10-06T16:33:42.127Z",
+        "updated_at": "2023-10-06T17:24:39.963Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c55ca852-fafb-4a74-8c53-76e1e4662024",
+        "model": "Electric",
+        "manufacturer": "Tesla",
+        "year_of_manufacture": 89245,
+        "color": "White",
+        "registration_number": "789DEF",
+        "availability_status": false,
+        "created_at": "2023-10-06T07:32:03.370Z",
+        "updated_at": "2023-10-06T15:07:12.368Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "c2cab7cb-d234-4909-a1b5-3113ac440baf",
+        "rating": 65349,
+        "comment": "Great product!",
+        "review_date": "2023-10-06T08:16:37.640Z",
+        "created_at": "2023-10-06T10:54:35.647Z",
+        "updated_at": "2023-10-06T17:21:32.905Z",
+        "car_id": "7d70a929-f210-4c7e-820c-6fc126a3d132",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bb1be8f-d723-4f38-ace4-c2fe80a671df",
+        "rating": 58980,
+        "comment": "Excellent service!",
+        "review_date": "2023-10-06T00:54:35.265Z",
+        "created_at": "2023-10-06T09:59:19.074Z",
+        "updated_at": "2023-10-06T01:55:22.133Z",
+        "car_id": "7338705b-43b0-4f26-81a9-b2d902635a39",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eebadb36-99a6-45ab-baed-54c162cf92e7",
+        "rating": 88178,
+        "comment": "Highly recommended!",
+        "review_date": "2023-10-06T09:40:10.793Z",
+        "created_at": "2023-10-05T23:44:31.465Z",
+        "updated_at": "2023-10-06T16:36:33.878Z",
+        "car_id": "c55ca852-fafb-4a74-8c53-76e1e4662024",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b19959f-aa98-4160-af5e-72ff3134e577",
+        "rating": 62106,
+        "comment": "Very satisfied!",
+        "review_date": "2023-10-05T21:57:28.717Z",
+        "created_at": "2023-10-06T00:49:32.430Z",
+        "updated_at": "2023-10-06T13:04:14.550Z",
+        "car_id": "c55ca852-fafb-4a74-8c53-76e1e4662024",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c32084a2-e259-4288-bb45-a3cd3b33f2cc",
+        "rating": 18258,
+        "comment": "Impressive quality!",
+        "review_date": "2023-10-06T12:11:57.743Z",
+        "created_at": "2023-10-05T23:48:39.118Z",
+        "updated_at": "2023-10-06T01:45:16.416Z",
+        "car_id": "17b3c5af-44c3-4b9d-8870-7672c5f8fca3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "maintenance": [
+      {
+        "id": "f7ac02c1-ceaf-420b-a283-f0a947213366",
+        "maintenance_date": "2023-10-06T15:41:56.337Z",
+        "description": "Routine check-up",
+        "cost": 26368,
+        "maintenance_status": "Pending",
+        "created_at": "2023-10-05T21:53:40.549Z",
+        "updated_at": "2023-10-05T23:58:22.521Z",
+        "car_id": "d3b04d47-c5af-42ba-85cc-a6b020541601"
+      },
+      {
+        "id": "39bafee9-17a2-4955-8ffc-fbf2472f274e",
+        "maintenance_date": "2023-10-06T10:58:05.705Z",
+        "description": "Oil change",
+        "cost": 93736,
+        "maintenance_status": "In progress",
+        "created_at": "2023-10-06T10:25:23.759Z",
+        "updated_at": "2023-10-05T23:23:35.061Z",
+        "car_id": "c55ca852-fafb-4a74-8c53-76e1e4662024"
+      },
+      {
+        "id": "9d6fd44b-f89e-41bf-b0d2-e2dabe42a320",
+        "maintenance_date": "2023-10-05T23:42:56.648Z",
+        "description": "Tire rotation",
+        "cost": 36401,
+        "maintenance_status": "Completed",
+        "created_at": "2023-10-06T18:18:30.292Z",
+        "updated_at": "2023-10-06T06:50:34.744Z",
+        "car_id": "7338705b-43b0-4f26-81a9-b2d902635a39"
+      },
+      {
+        "id": "2f7c68cf-ea3d-419a-bc24-3a498617af3a",
+        "maintenance_date": "2023-10-06T08:45:21.050Z",
+        "description": "Brake inspection",
+        "cost": 28986,
+        "maintenance_status": "Cancelled",
+        "created_at": "2023-10-06T00:51:04.417Z",
+        "updated_at": "2023-10-06T11:12:24.466Z",
+        "car_id": "d3b04d47-c5af-42ba-85cc-a6b020541601"
+      },
+      {
+        "id": "6a1305ae-9d95-4366-adcc-63e6ffa9c8d1",
+        "maintenance_date": "2023-10-06T08:40:38.981Z",
+        "description": "Battery replacement",
+        "cost": 98113,
+        "maintenance_status": "Delayed",
+        "created_at": "2023-10-05T21:55:23.399Z",
+        "updated_at": "2023-10-06T06:47:28.219Z",
+        "car_id": "17b3c5af-44c3-4b9d-8870-7672c5f8fca3"
+      }
+    ],
+    "booking": [
+      {
+        "id": "62d93be7-fe03-49b4-b824-32c6bb2bb772",
+        "start_time": "2023-10-06T09:37:52.338Z",
+        "end_time": "2023-10-05T20:20:45.371Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Beach",
+        "booking_status": "Confirmed",
+        "created_at": "2023-10-06T10:56:46.445Z",
+        "updated_at": "2023-10-06T04:08:20.492Z",
+        "car_id": "7d70a929-f210-4c7e-820c-6fc126a3d132",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1c731e6-d0a3-419d-bf29-8702cfbc3ebd",
+        "start_time": "2023-10-06T13:10:10.102Z",
+        "end_time": "2023-10-06T09:11:35.792Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Mountain",
+        "booking_status": "Pending",
+        "created_at": "2023-10-06T11:14:24.821Z",
+        "updated_at": "2023-10-06T08:27:49.392Z",
+        "car_id": "7338705b-43b0-4f26-81a9-b2d902635a39",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a97485ef-5743-462f-a662-41410a642141",
+        "start_time": "2023-10-06T12:25:05.145Z",
+        "end_time": "2023-10-06T03:31:01.798Z",
+        "pickup_location": "City center",
+        "dropoff_location": "Park",
+        "booking_status": "Cancelled",
+        "created_at": "2023-10-05T22:44:24.596Z",
+        "updated_at": "2023-10-06T00:53:21.331Z",
+        "car_id": "d3b04d47-c5af-42ba-85cc-a6b020541601",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbacb84e-ce4b-4634-9a86-a94828bf3415",
+        "start_time": "2023-10-06T05:50:25.223Z",
+        "end_time": "2023-10-05T20:55:07.751Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Museum",
+        "booking_status": "Completed",
+        "created_at": "2023-10-06T04:58:52.662Z",
+        "updated_at": "2023-10-06T14:28:40.852Z",
+        "car_id": "7338705b-43b0-4f26-81a9-b2d902635a39",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a016401-8bf3-4a43-bed5-c83fb3ea3cac",
+        "start_time": "2023-10-06T02:21:10.864Z",
+        "end_time": "2023-10-06T17:27:09.478Z",
+        "pickup_location": "Shopping mall",
+        "dropoff_location": "Restaurant",
+        "booking_status": "No-show",
+        "created_at": "2023-10-06T05:23:54.349Z",
+        "updated_at": "2023-10-05T21:24:09.693Z",
+        "car_id": "17b3c5af-44c3-4b9d-8870-7672c5f8fca3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "89065a19-02c9-4930-901f-86cfb6e6f235",
+        "email": "Abigayle_Stiedemann31@roq.tech",
+        "firstName": "Renee",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1076.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ce9c08f5-8783-4709-886c-55eae0b41d8f",
+        "email": "Dorothea.Stamm87@roq.tech",
+        "firstName": "Augustine",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27484637",
+        "tenantId": null
+      },
+      {
+        "reference": "f67edcf6-11c7-4542-9d19-da5a986e3942",
+        "email": "Leonor.Farrell@roq.tech",
+        "firstName": "Casey",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24374691",
+        "tenantId": null
+      },
+      {
+        "reference": "5dd33b53-47d6-423a-ba64-bcbceca94d9f",
+        "email": "Emie80@roq.tech",
+        "firstName": "Columbus",
+        "lastName": "Gottlieb",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41590042",
+        "tenantId": null
+      },
+      {
+        "reference": "e6b97886-a7ff-4d29-9fd1-a025e3758af9",
+        "email": "Maybell89@roq.tech",
+        "firstName": "Vito",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/632.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "1e0ca98e-9cc7-4773-a6a8-cedaa0723e88",
+        "model": "Sedan",
+        "manufacturer": "Toyota",
+        "year_of_manufacture": 50653,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "availability_status": true,
+        "created_at": "2023-10-06T06:35:24.425Z",
+        "updated_at": "2023-10-06T16:03:37.566Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ca206c1a-11b6-4ee7-8931-1eed7ae50f18",
+        "model": "SUV",
+        "manufacturer": "Honda",
+        "year_of_manufacture": 96374,
+        "color": "Blue",
+        "registration_number": "XYZ456",
+        "availability_status": true,
+        "created_at": "2023-10-05T23:27:23.851Z",
+        "updated_at": "2023-10-06T08:41:58.361Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "43e86968-4173-4e88-a6ed-c0fb610226f0",
+        "model": "Hatchback",
+        "manufacturer": "Ford",
+        "year_of_manufacture": 34297,
+        "color": "Green",
+        "registration_number": "123ABC",
+        "availability_status": false,
+        "created_at": "2023-10-05T20:31:25.096Z",
+        "updated_at": "2023-10-05T23:12:49.618Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3acbc5f7-7ba0-4f24-82ad-e35a96b0b9dc",
+        "model": "Convertible",
+        "manufacturer": "BMW",
+        "year_of_manufacture": 209,
+        "color": "Silver",
+        "registration_number": "456XYZ",
+        "availability_status": true,
+        "created_at": "2023-10-06T15:35:24.416Z",
+        "updated_at": "2023-10-06T15:09:52.606Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ed12f30e-e081-440b-94f4-eeae653ec098",
+        "model": "Sports Car",
+        "manufacturer": "Mercedes-Benz",
+        "year_of_manufacture": 66633,
+        "color": "Black",
+        "registration_number": "789DEF",
+        "availability_status": false,
+        "created_at": "2023-10-06T06:20:55.963Z",
+        "updated_at": "2023-10-06T17:43:08.450Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "71ae9950-9708-4c09-ad90-d7d48cf53e7c",
+        "rating": 12513,
+        "comment": "Great product!",
+        "review_date": "2023-10-06T03:15:31.542Z",
+        "created_at": "2023-10-06T14:24:42.333Z",
+        "updated_at": "2023-10-06T14:41:07.924Z",
+        "car_id": "ed12f30e-e081-440b-94f4-eeae653ec098",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "091036c7-0bb6-4677-90ed-592701e7df91",
+        "rating": 83410,
+        "comment": "Excellent service!",
+        "review_date": "2023-10-05T22:04:02.463Z",
+        "created_at": "2023-10-05T23:37:37.988Z",
+        "updated_at": "2023-10-06T01:33:16.766Z",
+        "car_id": "ed12f30e-e081-440b-94f4-eeae653ec098",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41c8a872-b24e-4603-b142-997cbd9bffb9",
+        "rating": 93191,
+        "comment": "Highly recommended!",
+        "review_date": "2023-10-06T00:19:48.441Z",
+        "created_at": "2023-10-06T10:31:33.346Z",
+        "updated_at": "2023-10-06T01:47:45.667Z",
+        "car_id": "43e86968-4173-4e88-a6ed-c0fb610226f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6eaa6e2f-610e-4216-8d41-935a36c3008f",
+        "rating": 65403,
+        "comment": "Very satisfied!",
+        "review_date": "2023-10-06T04:48:01.189Z",
+        "created_at": "2023-10-06T00:02:32.459Z",
+        "updated_at": "2023-10-06T07:00:44.883Z",
+        "car_id": "ed12f30e-e081-440b-94f4-eeae653ec098",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a564339c-93ed-4891-aeb1-61b0c94e4595",
+        "rating": 39909,
+        "comment": "Impressive quality!",
+        "review_date": "2023-10-06T12:29:59.977Z",
+        "created_at": "2023-10-06T11:02:23.239Z",
+        "updated_at": "2023-10-06T08:05:15.337Z",
+        "car_id": "1e0ca98e-9cc7-4773-a6a8-cedaa0723e88",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "maintenance": [
+      {
+        "id": "220887dc-6ecf-410d-8b51-ce87582677d0",
+        "maintenance_date": "2023-10-06T18:24:47.238Z",
+        "description": "Routine check-up",
+        "cost": 22375,
+        "maintenance_status": "Pending",
+        "created_at": "2023-10-05T19:38:02.291Z",
+        "updated_at": "2023-10-06T06:43:22.625Z",
+        "car_id": "3acbc5f7-7ba0-4f24-82ad-e35a96b0b9dc"
+      },
+      {
+        "id": "855e009c-7dda-4c8f-9ace-57da7a6291c5",
+        "maintenance_date": "2023-10-06T01:51:45.032Z",
+        "description": "Oil change",
+        "cost": 20617,
+        "maintenance_status": "In progress",
+        "created_at": "2023-10-06T02:11:57.206Z",
+        "updated_at": "2023-10-06T16:44:55.790Z",
+        "car_id": "43e86968-4173-4e88-a6ed-c0fb610226f0"
+      },
+      {
+        "id": "c4abdbee-ab1b-46b8-ac0c-5953a2bd5faa",
+        "maintenance_date": "2023-10-06T03:23:38.015Z",
+        "description": "Tire rotation",
+        "cost": 84615,
+        "maintenance_status": "Completed",
+        "created_at": "2023-10-06T09:54:05.153Z",
+        "updated_at": "2023-10-05T23:11:17.817Z",
+        "car_id": "3acbc5f7-7ba0-4f24-82ad-e35a96b0b9dc"
+      },
+      {
+        "id": "43cc802c-30e0-471f-9c18-abb01cbcb54e",
+        "maintenance_date": "2023-10-05T19:13:53.834Z",
+        "description": "Brake inspection",
+        "cost": 4547,
+        "maintenance_status": "Scheduled",
+        "created_at": "2023-10-06T07:24:37.743Z",
+        "updated_at": "2023-10-06T15:20:28.719Z",
+        "car_id": "43e86968-4173-4e88-a6ed-c0fb610226f0"
+      },
+      {
+        "id": "0c02f032-b2c7-4988-8430-e2d1a6f566ee",
+        "maintenance_date": "2023-10-06T16:11:27.655Z",
+        "description": "Battery replacement",
+        "cost": 59189,
+        "maintenance_status": "Cancelled",
+        "created_at": "2023-10-06T15:24:14.122Z",
+        "updated_at": "2023-10-06T03:25:57.080Z",
+        "car_id": "ed12f30e-e081-440b-94f4-eeae653ec098"
+      }
+    ],
+    "booking": [
+      {
+        "id": "86890f6e-fdda-4031-82ba-cf3965829db8",
+        "start_time": "2023-10-06T13:47:27.786Z",
+        "end_time": "2023-10-05T19:45:07.093Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City center",
+        "booking_status": "Confirmed",
+        "created_at": "2023-10-05T22:58:50.027Z",
+        "updated_at": "2023-10-06T03:36:29.181Z",
+        "car_id": "43e86968-4173-4e88-a6ed-c0fb610226f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcef792d-689f-4423-abff-3868a281296c",
+        "start_time": "2023-10-06T09:54:25.206Z",
+        "end_time": "2023-10-06T06:31:41.618Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Shopping mall",
+        "booking_status": "Pending",
+        "created_at": "2023-10-06T00:36:34.436Z",
+        "updated_at": "2023-10-06T10:09:25.658Z",
+        "car_id": "43e86968-4173-4e88-a6ed-c0fb610226f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f4b959b-e401-4ba4-8cd3-5b64cfa7a946",
+        "start_time": "2023-10-05T20:13:56.414Z",
+        "end_time": "2023-10-06T06:05:07.512Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "booking_status": "Cancelled",
+        "created_at": "2023-10-05T21:03:20.476Z",
+        "updated_at": "2023-10-06T00:08:02.253Z",
+        "car_id": "43e86968-4173-4e88-a6ed-c0fb610226f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29904a95-e07c-40ac-8cd1-90192e0cc18d",
+        "start_time": "2023-10-05T21:00:23.433Z",
+        "end_time": "2023-10-06T12:59:50.916Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "booking_status": "Completed",
+        "created_at": "2023-10-06T08:34:21.101Z",
+        "updated_at": "2023-10-06T16:06:47.170Z",
+        "car_id": "43e86968-4173-4e88-a6ed-c0fb610226f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90670fd5-f897-49ba-b2ee-99a191f7e448",
+        "start_time": "2023-10-06T00:05:19.808Z",
+        "end_time": "2023-10-05T22:22:22.794Z",
+        "pickup_location": "Residential area",
+        "dropoff_location": "Beach",
+        "booking_status": "On hold",
+        "created_at": "2023-10-05T20:10:07.928Z",
+        "updated_at": "2023-10-06T16:48:18.908Z",
+        "car_id": "3acbc5f7-7ba0-4f24-82ad-e35a96b0b9dc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fca8ba62-2111-4cd1-8341-19233dfa6e9a",
+        "email": "Justus_Howell45@roq.tech",
+        "firstName": "Lily",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/844.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4e7fca1-b43b-434e-a018-80731f82bbc5",
+        "email": "Jaleel56@roq.tech",
+        "firstName": "Ellen",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/696.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d909ed59-5f55-4ef6-bffe-24270e225b02",
+        "email": "Elton.Moen90@roq.tech",
+        "firstName": "Adolf",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83764798",
+        "tenantId": null
+      },
+      {
+        "reference": "ba2b62a4-93db-49cb-967c-920037e2f74c",
+        "email": "Elwyn_Feest@roq.tech",
+        "firstName": "Jazlyn",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45912580",
+        "tenantId": null
+      },
+      {
+        "reference": "7fb8c99f-31bc-45e2-9561-528d7b211e41",
+        "email": "Dock.OKon45@roq.tech",
+        "firstName": "Sim",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/594.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "cce063f7-d205-4392-aecb-33cd18a58642",
+        "model": "Sedan",
+        "manufacturer": "Toyota",
+        "year_of_manufacture": 85769,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "availability_status": false,
+        "created_at": "2023-10-06T11:23:23.682Z",
+        "updated_at": "2023-10-06T03:48:20.617Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5e6998f2-1964-4caf-82c7-29ba18cebd2e",
+        "model": "SUV",
+        "manufacturer": "Honda",
+        "year_of_manufacture": 18658,
+        "color": "Blue",
+        "registration_number": "XYZ789",
+        "availability_status": true,
+        "created_at": "2023-10-06T12:51:55.992Z",
+        "updated_at": "2023-10-06T16:41:50.333Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "366b9377-0db4-441d-9888-79c56325d67d",
+        "model": "Hatchback",
+        "manufacturer": "Ford",
+        "year_of_manufacture": 57000,
+        "color": "Black",
+        "registration_number": "123QWE",
+        "availability_status": true,
+        "created_at": "2023-10-06T08:33:54.442Z",
+        "updated_at": "2023-10-06T05:55:20.264Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c7aa0771-9432-4a81-99ca-f535bf2ff5eb",
+        "model": "Convertible",
+        "manufacturer": "Chevrolet",
+        "year_of_manufacture": 74175,
+        "color": "White",
+        "registration_number": "456ASD",
+        "availability_status": true,
+        "created_at": "2023-10-06T13:29:55.971Z",
+        "updated_at": "2023-10-05T19:22:18.000Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4d981039-0c3b-4f48-9e7e-0951ce7fca11",
+        "model": "Electric",
+        "manufacturer": "BMW",
+        "year_of_manufacture": 96386,
+        "color": "Silver",
+        "registration_number": "789ZXC",
+        "availability_status": false,
+        "created_at": "2023-10-06T13:44:20.687Z",
+        "updated_at": "2023-10-06T11:47:13.923Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "7a86f3d9-a971-44b9-acb3-45c6405d673f",
+        "rating": 33009,
+        "comment": "Great product!",
+        "review_date": "2023-10-06T04:02:05.656Z",
+        "created_at": "2023-10-06T09:45:52.727Z",
+        "updated_at": "2023-10-05T21:42:19.952Z",
+        "car_id": "c7aa0771-9432-4a81-99ca-f535bf2ff5eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9bde5ff-fec8-4ca8-8055-9bd37f6a36da",
+        "rating": 70295,
+        "comment": "Excellent service!",
+        "review_date": "2023-10-06T18:30:56.142Z",
+        "created_at": "2023-10-06T09:39:54.979Z",
+        "updated_at": "2023-10-05T23:20:47.765Z",
+        "car_id": "c7aa0771-9432-4a81-99ca-f535bf2ff5eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51ad012e-a975-4c86-9493-a1fb1ccb5f63",
+        "rating": 78189,
+        "comment": "Highly recommended!",
+        "review_date": "2023-10-05T22:25:13.580Z",
+        "created_at": "2023-10-05T23:37:19.488Z",
+        "updated_at": "2023-10-05T21:25:58.367Z",
+        "car_id": "c7aa0771-9432-4a81-99ca-f535bf2ff5eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b6212f1-5d44-4a57-a953-1a584a1f15bd",
+        "rating": 13255,
+        "comment": "Very satisfied!",
+        "review_date": "2023-10-06T17:31:49.307Z",
+        "created_at": "2023-10-06T05:49:33.026Z",
+        "updated_at": "2023-10-06T09:41:58.122Z",
+        "car_id": "5e6998f2-1964-4caf-82c7-29ba18cebd2e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91c92e93-85e2-4735-84c8-4d2e4a78b959",
+        "rating": 28450,
+        "comment": "Impressive quality!",
+        "review_date": "2023-10-05T23:52:43.884Z",
+        "created_at": "2023-10-06T03:21:31.603Z",
+        "updated_at": "2023-10-06T01:32:17.849Z",
+        "car_id": "c7aa0771-9432-4a81-99ca-f535bf2ff5eb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "maintenance": [
+      {
+        "id": "1aa5687b-0ce8-42c2-8996-493864352b87",
+        "maintenance_date": "2023-10-06T16:37:50.257Z",
+        "description": "Routine check-up",
+        "cost": 58199,
+        "maintenance_status": "In progress",
+        "created_at": "2023-10-06T12:38:35.558Z",
+        "updated_at": "2023-10-06T06:13:38.613Z",
+        "car_id": "4d981039-0c3b-4f48-9e7e-0951ce7fca11"
+      },
+      {
+        "id": "bc779f92-b5b5-45b6-bb56-b7438da54f40",
+        "maintenance_date": "2023-10-05T19:19:05.947Z",
+        "description": "Oil change",
+        "cost": 14366,
+        "maintenance_status": "Completed",
+        "created_at": "2023-10-06T15:44:41.902Z",
+        "updated_at": "2023-10-06T15:29:03.694Z",
+        "car_id": "cce063f7-d205-4392-aecb-33cd18a58642"
+      },
+      {
+        "id": "d5e370aa-b334-4bee-b17b-a9d512f541ef",
+        "maintenance_date": "2023-10-05T22:40:11.702Z",
+        "description": "Tire rotation",
+        "cost": 9135,
+        "maintenance_status": "Pending",
+        "created_at": "2023-10-05T19:07:51.622Z",
+        "updated_at": "2023-10-05T22:23:14.194Z",
+        "car_id": "366b9377-0db4-441d-9888-79c56325d67d"
+      },
+      {
+        "id": "07ee4db2-4c6f-4cec-929f-0a4e834075e5",
+        "maintenance_date": "2023-10-06T06:44:53.734Z",
+        "description": "Brake inspection",
+        "cost": 96993,
+        "maintenance_status": "Scheduled",
+        "created_at": "2023-10-05T18:58:40.674Z",
+        "updated_at": "2023-10-05T20:18:47.150Z",
+        "car_id": "c7aa0771-9432-4a81-99ca-f535bf2ff5eb"
+      },
+      {
+        "id": "62649850-f61f-4f2e-a122-4ff92650cca8",
+        "maintenance_date": "2023-10-06T08:31:55.406Z",
+        "description": "Battery replacement",
+        "cost": 4896,
+        "maintenance_status": "Cancelled",
+        "created_at": "2023-10-05T21:49:49.986Z",
+        "updated_at": "2023-10-05T23:49:39.912Z",
+        "car_id": "cce063f7-d205-4392-aecb-33cd18a58642"
+      }
+    ],
+    "booking": [
+      {
+        "id": "09c24a03-3b05-4f40-8c45-725086fdda4f",
+        "start_time": "2023-10-06T15:18:09.188Z",
+        "end_time": "2023-10-06T02:34:37.512Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City center",
+        "booking_status": "Confirmed",
+        "created_at": "2023-10-06T01:23:37.083Z",
+        "updated_at": "2023-10-06T15:19:31.861Z",
+        "car_id": "c7aa0771-9432-4a81-99ca-f535bf2ff5eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b892e0c4-397f-48d1-8ddd-ed4983e8dce9",
+        "start_time": "2023-10-05T23:34:21.376Z",
+        "end_time": "2023-10-06T06:44:31.867Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Shopping mall",
+        "booking_status": "Cancelled",
+        "created_at": "2023-10-06T06:19:55.077Z",
+        "updated_at": "2023-10-06T01:50:08.429Z",
+        "car_id": "366b9377-0db4-441d-9888-79c56325d67d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a666b1dd-6c7c-4f42-bea5-0865253c7373",
+        "start_time": "2023-10-06T04:59:31.524Z",
+        "end_time": "2023-10-06T17:31:12.915Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "booking_status": "Pending",
+        "created_at": "2023-10-06T17:29:40.441Z",
+        "updated_at": "2023-10-05T22:14:38.198Z",
+        "car_id": "c7aa0771-9432-4a81-99ca-f535bf2ff5eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02ea0bd1-8215-488e-8013-f9359d54b721",
+        "start_time": "2023-10-06T18:11:35.270Z",
+        "end_time": "2023-10-06T17:49:22.078Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "booking_status": "Completed",
+        "created_at": "2023-10-06T02:27:19.831Z",
+        "updated_at": "2023-10-06T04:46:24.093Z",
+        "car_id": "cce063f7-d205-4392-aecb-33cd18a58642",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80334c34-981d-4bf2-bb08-197608ebe5cb",
+        "start_time": "2023-10-06T11:53:20.493Z",
+        "end_time": "2023-10-06T10:21:32.485Z",
+        "pickup_location": "Residential area",
+        "dropoff_location": "Beach",
+        "booking_status": "In progress",
+        "created_at": "2023-10-06T00:03:58.556Z",
+        "updated_at": "2023-10-06T15:08:20.894Z",
+        "car_id": "4d981039-0c3b-4f48-9e7e-0951ce7fca11",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "116b6460-6069-4155-aec6-815fbc218137",
+        "email": "Pat_Prohaska@roq.tech",
+        "firstName": "Lucas",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17108546",
+        "tenantId": null
+      },
+      {
+        "reference": "84761fbf-86ff-439b-9874-6f6631ff0b93",
+        "email": "Maximillia.Hamill57@roq.tech",
+        "firstName": "Kavon",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32692383",
+        "tenantId": null
+      },
+      {
+        "reference": "567df21a-be23-404c-9c6e-9e62635d093d",
+        "email": "Hermann.Hermann-Hintz31@roq.tech",
+        "firstName": "Christ",
+        "lastName": "Schaefer-Towne",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60149321",
+        "tenantId": null
+      },
+      {
+        "reference": "76b957df-3a7c-4a8d-93dc-f9f6c8feee86",
+        "email": "Ryley_Ratke@roq.tech",
+        "firstName": "Xzavier",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/416.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "00fef2aa-601f-4654-a5e6-14cee4e5959d",
+        "email": "Taryn41@roq.tech",
+        "firstName": "Kelsi",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/116.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "33033622-b5c0-4906-b8ed-8941008e13b2",
+        "model": "Sedan",
+        "manufacturer": "Toyota",
+        "year_of_manufacture": 51012,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "availability_status": true,
+        "created_at": "2023-10-05T21:53:49.317Z",
+        "updated_at": "2023-10-06T04:04:12.154Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c2bf90ad-bc6f-447b-92c4-a614b83891ce",
+        "model": "SUV",
+        "manufacturer": "Honda",
+        "year_of_manufacture": 18989,
+        "color": "Blue",
+        "registration_number": "XYZ789",
+        "availability_status": false,
+        "created_at": "2023-10-06T10:11:51.985Z",
+        "updated_at": "2023-10-06T11:42:31.302Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "53bddc16-a1c8-436b-8877-40389fdcf89d",
+        "model": "Hatchback",
+        "manufacturer": "Ford",
+        "year_of_manufacture": 49790,
+        "color": "Black",
+        "registration_number": "123ABC",
+        "availability_status": true,
+        "created_at": "2023-10-06T11:57:55.154Z",
+        "updated_at": "2023-10-06T04:27:19.266Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "320f24a1-676b-47fb-966e-4b30cd97bee1",
+        "model": "Convertible",
+        "manufacturer": "BMW",
+        "year_of_manufacture": 25983,
+        "color": "White",
+        "registration_number": "789XYZ",
+        "availability_status": false,
+        "created_at": "2023-10-06T12:16:03.339Z",
+        "updated_at": "2023-10-06T15:18:23.198Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "75b2e480-f87c-47bb-8d18-1db0367124b2",
+        "model": "Sports Car",
+        "manufacturer": "Mercedes-Benz",
+        "year_of_manufacture": 45802,
+        "color": "Silver",
+        "registration_number": "456DEF",
+        "availability_status": false,
+        "created_at": "2023-10-06T08:25:19.894Z",
+        "updated_at": "2023-10-06T14:09:43.203Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "1c61c454-ebd1-4f6a-8c32-d51839f7dc43",
+        "rating": 14486,
+        "comment": "Great product!",
+        "review_date": "2023-10-06T04:22:04.092Z",
+        "created_at": "2023-10-06T17:34:22.213Z",
+        "updated_at": "2023-10-06T16:41:25.904Z",
+        "car_id": "53bddc16-a1c8-436b-8877-40389fdcf89d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f0a3a9e-11fd-4902-974a-ced13f578e7f",
+        "rating": 99096,
+        "comment": "Excellent service!",
+        "review_date": "2023-10-06T05:54:15.546Z",
+        "created_at": "2023-10-06T13:42:05.627Z",
+        "updated_at": "2023-10-06T10:34:07.378Z",
+        "car_id": "53bddc16-a1c8-436b-8877-40389fdcf89d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac4a342d-b15f-4c7e-93bb-f636185bf63d",
+        "rating": 97411,
+        "comment": "Highly recommended!",
+        "review_date": "2023-10-06T12:45:42.929Z",
+        "created_at": "2023-10-06T13:57:35.351Z",
+        "updated_at": "2023-10-06T07:30:23.210Z",
+        "car_id": "c2bf90ad-bc6f-447b-92c4-a614b83891ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fca8006d-71ba-487d-9657-fac5df364063",
+        "rating": 16839,
+        "comment": "Very satisfied!",
+        "review_date": "2023-10-05T21:23:40.634Z",
+        "created_at": "2023-10-06T08:33:14.414Z",
+        "updated_at": "2023-10-05T22:22:57.246Z",
+        "car_id": "75b2e480-f87c-47bb-8d18-1db0367124b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1fb7cc4-f283-4ed9-80af-800243db5c2e",
+        "rating": 98357,
+        "comment": "Impressive quality!",
+        "review_date": "2023-10-05T23:33:56.074Z",
+        "created_at": "2023-10-05T22:09:09.266Z",
+        "updated_at": "2023-10-06T10:26:29.354Z",
+        "car_id": "33033622-b5c0-4906-b8ed-8941008e13b2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "maintenance": [
+      {
+        "id": "53ca73c2-14c9-4359-a5b3-67434afea7e9",
+        "maintenance_date": "2023-10-06T01:25:18.431Z",
+        "description": "Routine check-up",
+        "cost": 8449,
+        "maintenance_status": "Scheduled",
+        "created_at": "2023-10-06T12:29:52.507Z",
+        "updated_at": "2023-10-06T01:15:59.710Z",
+        "car_id": "53bddc16-a1c8-436b-8877-40389fdcf89d"
+      },
+      {
+        "id": "0bc35362-be0a-4221-b025-1f9f9f9340e3",
+        "maintenance_date": "2023-10-06T03:42:47.100Z",
+        "description": "Oil change",
+        "cost": 3582,
+        "maintenance_status": "In progress",
+        "created_at": "2023-10-06T08:36:06.937Z",
+        "updated_at": "2023-10-06T16:48:55.534Z",
+        "car_id": "75b2e480-f87c-47bb-8d18-1db0367124b2"
+      },
+      {
+        "id": "bac6cc10-3111-4cbc-9d41-831f0d6c1628",
+        "maintenance_date": "2023-10-06T04:19:24.204Z",
+        "description": "Tire rotation",
+        "cost": 10874,
+        "maintenance_status": "Completed",
+        "created_at": "2023-10-06T10:34:05.343Z",
+        "updated_at": "2023-10-06T10:25:36.000Z",
+        "car_id": "320f24a1-676b-47fb-966e-4b30cd97bee1"
+      },
+      {
+        "id": "d1a0fcba-d934-489a-8317-76871bbdead7",
+        "maintenance_date": "2023-10-06T09:19:02.079Z",
+        "description": "Brake inspection",
+        "cost": 45347,
+        "maintenance_status": "Delayed",
+        "created_at": "2023-10-05T23:10:39.022Z",
+        "updated_at": "2023-10-05T23:14:45.293Z",
+        "car_id": "c2bf90ad-bc6f-447b-92c4-a614b83891ce"
+      },
+      {
+        "id": "ddfd7cda-71cb-4562-82b2-63a395fe57aa",
+        "maintenance_date": "2023-10-05T23:20:56.668Z",
+        "description": "Battery replacement",
+        "cost": 71044,
+        "maintenance_status": "Cancelled",
+        "created_at": "2023-10-06T11:12:32.361Z",
+        "updated_at": "2023-10-06T01:16:00.852Z",
+        "car_id": "53bddc16-a1c8-436b-8877-40389fdcf89d"
+      }
+    ],
+    "booking": [
+      {
+        "id": "b6e7e6c5-6af3-44d9-b84d-f65f3f0dd6cb",
+        "start_time": "2023-10-05T22:45:36.416Z",
+        "end_time": "2023-10-05T19:34:21.259Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City center",
+        "booking_status": "Confirmed",
+        "created_at": "2023-10-06T12:46:04.921Z",
+        "updated_at": "2023-10-06T03:25:13.801Z",
+        "car_id": "33033622-b5c0-4906-b8ed-8941008e13b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64540ec3-e207-4330-bc40-bd85e485f278",
+        "start_time": "2023-10-06T01:55:02.721Z",
+        "end_time": "2023-10-05T22:25:28.192Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Shopping mall",
+        "booking_status": "Pending",
+        "created_at": "2023-10-06T09:02:07.968Z",
+        "updated_at": "2023-10-06T08:52:33.677Z",
+        "car_id": "75b2e480-f87c-47bb-8d18-1db0367124b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e588b7e-5eaa-4bfb-81f0-72e4abb1b9c9",
+        "start_time": "2023-10-06T16:12:35.955Z",
+        "end_time": "2023-10-06T03:06:09.890Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "booking_status": "Cancelled",
+        "created_at": "2023-10-06T16:18:36.929Z",
+        "updated_at": "2023-10-06T09:15:23.439Z",
+        "car_id": "33033622-b5c0-4906-b8ed-8941008e13b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e2e01a2-5c8c-455f-a824-64a9f0b9cd24",
+        "start_time": "2023-10-06T04:56:19.187Z",
+        "end_time": "2023-10-06T00:47:16.472Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "booking_status": "Completed",
+        "created_at": "2023-10-06T06:56:07.742Z",
+        "updated_at": "2023-10-06T06:21:34.127Z",
+        "car_id": "53bddc16-a1c8-436b-8877-40389fdcf89d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d2c5f79-81b3-422b-a271-e5046ae264aa",
+        "start_time": "2023-10-06T00:31:02.644Z",
+        "end_time": "2023-10-06T01:44:40.947Z",
+        "pickup_location": "Residential area",
+        "dropoff_location": "Beach",
+        "booking_status": "No show",
+        "created_at": "2023-10-06T14:31:36.742Z",
+        "updated_at": "2023-10-06T18:02:44.978Z",
+        "car_id": "53bddc16-a1c8-436b-8877-40389fdcf89d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cdfa85ee-9503-46cb-926b-2bcfed6de3f3",
+        "email": "Destany_Haley45@roq.tech",
+        "firstName": "Chelsey",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35183173",
+        "tenantId": null
+      },
+      {
+        "reference": "21d2657b-c3c8-44cc-96f3-87218435d043",
+        "email": "Marilie_Lind83@roq.tech",
+        "firstName": "Taryn",
+        "lastName": "Stracke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4475711",
+        "tenantId": null
+      },
+      {
+        "reference": "576a6879-930a-4d80-b593-a9c0016f6506",
+        "email": "Audrey82@roq.tech",
+        "firstName": "Margarete",
+        "lastName": "Kautzer-Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85605677",
+        "tenantId": null
+      },
+      {
+        "reference": "886292e8-e5ca-4ea9-8e4f-c502dd23392d",
+        "email": "Ashly.Dickinson@roq.tech",
+        "firstName": "Johathan",
+        "lastName": "Cole",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64790643",
+        "tenantId": null
+      },
+      {
+        "reference": "5b0c443b-a2d3-4fa3-86fc-e66f4021aff9",
+        "email": "Juanita.Robel@roq.tech",
+        "firstName": "Zelma",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29558589",
+        "tenantId": null
+      }
+    ]
+  }
+]
